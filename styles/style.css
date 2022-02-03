@@ -3,8 +3,12 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+header, .content-top {
+    background-color: #1F2937;
+}
+
 header{
-    background-color: #1F2927;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,4 +36,42 @@ header{
 .header-links a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+.content-top {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.hero-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 400px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 24px;
+}
+
+.top-left {
+    padding-right: 100px;
+}
+
+.top-right {
+    background-color: #A5A7AB;
+    color: #F5F7FB;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -111,3 +111,42 @@ button {
 .info-subtext {
     text-align: center;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+}
+
+.quote-wrapper {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px;
+}
+
+/*import light italics font for roboto*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-LightItalic-webfont.eot');
+    src: url('Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-LightItalic-webfont.woff') format('woff'),
+         url('Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('Roboto-LightItalic-webfont.svg#RobotoLightItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote {
+    font-family: 'Roboto-LightItalic-webfont';
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+

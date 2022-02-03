@@ -75,3 +75,12 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+
+
+.info-wrapper h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+

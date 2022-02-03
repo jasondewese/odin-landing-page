@@ -3,8 +3,17 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-header, .content-top {
+body, header, .content-top, footer {
     background-color: #1F2937;
+}
+
+.info-wrapper, .sign-up-section {
+    background-color: #F9FAF8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -50,7 +59,7 @@ header{
     font-weight: extra-bold;
 }
 
-.hero-subtext {
+.hero-subtext, footer {
     font-size: 18px;
     color: #E5E7EB;
     width: 400px;
@@ -74,6 +83,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.image-placeholder {
+    text-align: center;
 }
 
 .info-wrapper {
@@ -182,3 +195,12 @@ button {
 .sign-up-text p {
     margin: 5px 0;
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+

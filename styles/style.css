@@ -150,3 +150,35 @@ button {
     align-self: flex-end;
 }
 
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-info {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    width: 800px;
+    padding: 25px 100px;
+    margin: 50px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.bottom-button-wrapper {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.sign-up-text p {
+    margin: 5px 0;
+}
